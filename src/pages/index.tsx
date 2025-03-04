@@ -67,7 +67,7 @@ export default function Home() {
               >
                 <pre>
                   <code>
-                    {`curl -X POST "https://backend-assignment-MHA.vercel.app/api/users" \\
+                    {`curl -X POST "https://backend-assignment-mha.vercel.app/api/users" \\
       -H "Content-Type: application/json" \\
       -H "Accept: application/json" \\
       -d '{
@@ -120,7 +120,7 @@ export default function Home() {
               >
                 <pre>
                   <code>
-                    {`curl -X DELETE "https://backend-assignment-MHA.vercel.app/api/users/1" \\
+                    {`curl -X DELETE "https://backend-assignment-mha.vercel.app/api/users/1" \\
       -H "Accept: application/json"`}
                   </code>
                 </pre>
