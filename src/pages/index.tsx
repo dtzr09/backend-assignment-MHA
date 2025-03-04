@@ -71,7 +71,7 @@ export default function Home() {
       -H "Content-Type: application/json" \\
       -H "Accept: application/json" \\
       -d '{
-           "id": 7,
+           "id": 6,
            "name": "Test test",
            "email": "test.test@example.com",
            "dialingCode": "+61",

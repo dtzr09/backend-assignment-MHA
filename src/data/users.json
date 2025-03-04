@@ -38,13 +38,5 @@
     "dialingCode": "+61",
     "phoneNumber": "400-123-456",
     "linkedInUrl": "https://www.linkedin.com/in/ethanwright"
-  },
-  {
-    "id": 6,
-    "name": "Test test",
-    "email": "test.test@example.com",
-    "dialingCode": "+61",
-    "phoneNumber": "400-123-456",
-    "linkedInUrl": "https://www.linkedin.com/in/testtest"
   }
 ]
