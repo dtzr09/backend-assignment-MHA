@@ -48,6 +48,9 @@ export class UserService {
     try {
       const users = await loadUsers();
       const user = users.find((user: UserDTO) => user.id === id);
+      if (!user) {
+        throw new Error("User not found");
+      }
       return user;
     } catch (err) {
       throw new Error(err as string);

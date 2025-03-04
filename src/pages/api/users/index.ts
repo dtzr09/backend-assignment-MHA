@@ -2,6 +2,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { UserDTO, userSchema } from "@/schemas";
 import { UserService } from "@/services/userService";
 import { loggerWrapper } from "@/middleware/loggerWrapper";
+import { ZodError } from "zod";
 
 // Inject UserService
 const userService = new UserService();
@@ -21,6 +22,9 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       return res.status(201).json(newUser);
     } catch (error) {
       console.error("Error adding user:", error);
+      if (error instanceof ZodError) {
+        return res.status(400).json({ issues: error.issues });
+      }
       return res
         .status(400)
         .json({ message: `User with id ${req.body.id} already exists` });

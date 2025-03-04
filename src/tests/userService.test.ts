@@ -52,7 +52,7 @@ describe("UserService", () => {
       (loadUsers as jest.Mock).mockResolvedValue([]);
 
       await expect(userService.getUserById(1)).rejects.toThrow(
-        "Error: User not found"
+        "User not found"
       );
     });
   });
@@ -87,7 +87,7 @@ describe("UserService", () => {
       (loadUsers as jest.Mock).mockResolvedValue([newUser]);
 
       await expect(userService.addUser(newUser)).rejects.toThrow(
-        "Error: User already exists"
+        "User already exists"
       );
     });
   });
@@ -107,7 +107,7 @@ describe("UserService", () => {
       (loadUsers as jest.Mock).mockResolvedValue([]);
 
       await expect(userService.deleteUser(99)).rejects.toThrow(
-        "Error: User not found"
+        "User not found"
       );
     });
   });
