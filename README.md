@@ -1,11 +1,10 @@
 # backend-assignment-MHA
 
 Feature checklist:
-[x] Logging of requests to the backend
-[x] Retrieving requests logs
-[x] Retrieving all users
-[x] Retrieving a user with id
-[x] Deleting a user
-[x] Deleting a user
-[x] Creating a new user
+- [x] Logging of requests to the backend
+- [x] Retrieving request logs
+- [x] Retrieving all users
+- [x] Retrieving a user by ID
+- [x] Deleting a user
+- [x] Creating a new user
 
