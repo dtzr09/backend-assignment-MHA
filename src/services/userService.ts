@@ -14,7 +14,9 @@ export class UserService {
   async addUser(user: UserDTO) {
     try {
       const users = await loadUsers();
-      if (users.some((u: UserDTO) => u.id === user.id)) {
+      if (
+        users.some((u: UserDTO) => u.id === user.id || u.email === user.email)
+      ) {
         throw new Error("User already exists");
       }
 
