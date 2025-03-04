@@ -25,9 +25,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       if (error instanceof ZodError) {
         return res.status(400).json({ issues: error.issues });
       }
-      return res
-        .status(400)
-        .json({ message: `User with id ${req.body.id} already exists` });
+      return res.status(400).json({ message: `User already exists` });
     }
   }
 
