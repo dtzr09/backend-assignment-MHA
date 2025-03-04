@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "dialingCode": "+1",
+    "phoneNumber": "234-567-8901",
+    "linkedInUrl": "https://www.linkedin.com/in/alicejohnson"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "dialingCode": "+1",
+    "phoneNumber": "987-654-3210",
+    "linkedInUrl": "https://www.linkedin.com/in/bsmith"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Lee",
+    "email": "charlie.lee@example.com",
+    "dialingCode": "+44",
+    "phoneNumber": "20-7946-0958",
+    "linkedInUrl": "https://www.linkedin.com/in/charlielee"
+  },
+  {
+    "id": 4,
+    "name": "Diana Patel",
+    "email": "diana.patel@example.com",
+    "dialingCode": "+91",
+    "phoneNumber": "98765-43210",
+    "linkedInUrl": "https://www.linkedin.com/in/dianapatel"
+  },
+  {
+    "id": 5,
+    "name": "Ethan Wright",
+    "email": "ethan.wright@example.com",
+    "dialingCode": "+61",
+    "phoneNumber": "400-123-456",
+    "linkedInUrl": "https://www.linkedin.com/in/ethanwright"
+  },
+  {
+    "id": 6,
+    "name": "Test test",
+    "email": "test.test@example.com",
+    "dialingCode": "+61",
+    "phoneNumber": "400-123-456",
+    "linkedInUrl": "https://www.linkedin.com/in/testtest"
+  }
+]
